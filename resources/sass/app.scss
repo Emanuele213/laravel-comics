@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//header
+
+.header-container {
+    background-color: white;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-mod {
+    margin: 1rem 0;
+}
+
+.flex-nav-bar {
+    height: 100%;
+    display: flex;
+    list-style: none;
+}
+
+.nav-li-blue {
+    padding: 58px 7px;
+    border-bottom: 5px solid white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-li-blue:hover {
+    color: blue;
+    border-bottom: 5px solid blue;
+    background-color: lightgray;
+}
+
+//main
+
+.main-relative {
+    position: relative;
+}
+.img-teen-titans {
+    object-position: top;
+    object-fit: cover;
+    height: 320px;
+    width: 100%;
+}
+.h1-main-container {
+    max-width: 1200px;
+    margin: -4px auto;
+    color: white;
+    position: relative;
+
+    h1 {
+        background-color: #0282F9;
+        width: fit-content;
+        padding: 1rem;
+        position: absolute;
+        z-index: 10;
+        bottom: -36px;
+    }
+}
+
+.bg-black-comics {
+    background-color: #1C1C1C;
+    padding-bottom: 3rem;
+
+.comics-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    /* margin-top: 0rem; */
+    justify-content: center;
+    }
+}
+
+.bg-blue {
+    background-color: #0282f9;
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+}
+
+.blue-main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    padding: 3rem 0;
+}
+
+.dc-menu {
+    display: flex;
+}
+
+.icon-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .img-size {
+        width: 50px;
+        height: 70px;
+        margin-left: 1rem;
+    }
+}
+
+.card {
+    color: white;
+    margin-top: 4rem;
+    flex: 0 0 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .in-card {
+      img {
+        width: 192px;
+        height: 200px;
+        object-position: top;
+        object-fit: cover;
+      }
+    }
+
+    h2 {
+      font-size: 1rem;
+    }
+  }
+
+//footer
+
+.bg-image {
+    background-image: url('/images/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 79px;
+    display: flex;
+  }
+
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .other-things {
+    color: white;
+    display: flex;
+    gap: 3rem;
+  }
+
+  .space-top {
+    margin-top: 2rem;
+  }
+
+  .bg-black-down {
+    background-color: #303030;
+    position: relative;
+    height: 100px;
+  }
+
+  .footer-down-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mod-btn {
+    background-color: #303030;
+    color: white;
+    border: 2px solid #0282F9;
+    padding: 1rem;
+  }
+
+  .social-media {
+    color: #0282F9;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
